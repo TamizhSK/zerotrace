@@ -173,7 +173,7 @@ and [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   detect -> decide pipeline as the git hook, masking findings out of the text instead of
   blocking, plus two new detectors for this interception point: classification markers
   (`detectors/confidentiality.py`) and indirect prompt injection (`detectors/prompt_injection.py`).
-- Vendor-neutral skill packaging for a skills marketplace: `skill/skill.json` (manifest)
+- Vendor-neutral skill packaging for skills marketplaces: `skill/skill.json` (manifest)
   and `marketplace/submission.json` + `marketplace/README.md` (catalogue entry and submission
   checklist). Replaces the earlier Claude-specific `.claude-plugin` layout: ZeroTrace is a CLI
   any agent, MCP host or CI job can call, not a plugin for one vendor's client.
